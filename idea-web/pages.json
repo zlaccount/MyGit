@@ -1,0 +1,293 @@
+{
+	"pages": [
+		
+		{
+			"path": "pages/tabBar/recommend/recommend",
+			"style": {
+				"navigationBarTitleText": "荐股",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"fontSrc": "/static/font/iconfont-cha.ttf",
+								"text": "\ue603",
+								"fontSize": "18px"
+							},
+							{
+								"fontSrc": "/static/font/iconfontIos.ttf",
+								"text": "\ue873",
+								"fontSize": "20px"
+							},
+							{
+								"fontSrc": "/static/font/iconfontIos.ttf",
+								"text": "\ue636",
+								"fontSize": "18px"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"backgroundColor": "#FFFFFF",
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/template/ucenter/register",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/tabBar/ranking/ranking",
+			"style": {
+				"navigationBarTitleText": "排名",
+				"enablePullDownRefresh": true,
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/font/iconfontIos.ttf",
+							"text": "\ue858",
+							"fontSize": "24px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/attention/attention",
+			"style": {
+				"navigationBarTitleText": "关注",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/tabBar/me/me",
+			"style": {
+				"navigationStyle":"custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/template/recommendDeal/recommendDeal",
+			"style": {
+				"navigationBarTitleText": "荐股交易",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/font/iconfontIos.ttf",
+							"text": "\ue7d8",
+							"fontSize": "40px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/template/recommendHistory/recommendHistory",
+			"style": {
+				"navigationBarTitleText": "荐股历史"
+			}
+		},
+		{
+			"path": "pages/component/HM-search/HM-search",
+			"style": {
+				"navigationBarTitleText": "搜索"
+			}
+		},
+		{
+			"path": "pages/template/userInfo/userInfo",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/template/ucenter/login/login",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		},
+		{
+			"path": "pages/template/userInfo/updateUser/updateUser",
+			"style": {
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/font/iconfontIos.ttf",
+							"text": "\ue7d8",
+							"fontSize": "40px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tabBar/ranking/gics/gics",
+			"style": {}
+		},
+		{
+			"path": "pages/tabBar/recommend/recommendDetails/recommendDetails",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/template/toRecommend/toRecommend",
+			"style": {
+				"navigationBarTitleText": "荐股",
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+							"fontSrc": "/static/font/iconfontIos.ttf",
+							"text": "\ue873",
+							"fontSize": "20px"
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/template/toRecommend/recommendDetails/recommendDetails",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/tabBar/me/meAttention/meAttention",
+			"style": {}
+		}, {
+			"path": "pages/template/recommendHistory/recommendHistoryMore/recommendHistoryMore",
+			"style": {}
+		}, {
+			"path": "pages/template/test/test",
+			"style": {}
+		}, {
+			"path": "pages/tabBar/me/message/message",
+			"style": {}
+		}
+	    ,{
+            "path" : "pages/zhiwen-share/zhiwen-share",
+            "style" : {
+				"app-plus":{
+					"titleNView":{
+						"type":"transparent"
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/template/transaction/transaction",
+            "style" : {
+				"app-plus": {
+					"titleNView": {
+						"buttons": [{
+								"fontSrc": "/static/font/iconfontIos.ttf",
+								"text": "\ue636",
+								"fontSize": "18px"
+							}]
+					}
+				}
+			}
+        }
+        ,{
+            "path" : "pages/template/transaction/fundExposure/fundExposure",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/template/transaction/transactionAdd/transactionAdd",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/template/transaction/transactionDeit/transactionDeit",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/template/transaction/transactionUpdate/transactionUpdate",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/template/businessCard/businessCard",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/template/businessCard/companyList/companyList",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/shenwu/shenwu",
+            "style" : {
+				"enablePullDownRefresh": true
+			}
+        }
+        ,{
+            "path" : "pages/tabBar/shenwu/shenwuHistory/shenwuHistory",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/shenwu/point/point",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/template/recSea/recSea",
+            "style" : {}
+        }
+        ,{
+            "path" : "pages/tabBar/shenwu/question/question",
+            "style" : {}
+        }
+    ],
+	"tabBar": {
+		"color": "#7a7e83",
+		"selectedColor": "#3B62C3",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "white",
+		"list": [{
+				"pagePath": "pages/tabBar/recommend/recommend",
+				"text": "荐股",
+				"iconPath": "static/img/piechart.png",
+				"selectedIconPath": "static/img/piecharton.png"
+			},
+		
+			 	{
+				"pagePath": "pages/tabBar/ranking/ranking",
+				"text": "排名",
+				"iconPath": "static/img/icon-.png",
+				"selectedIconPath": "static/img/iconon-.png"
+			},
+			
+			{
+				"pagePath": "pages/tabBar/shenwu/shenwu",
+				"text": "神五",
+				"iconPath": "static/img/sw1.png",
+				"selectedIconPath": "static/img/sw2on.png"
+			},
+			{
+				"pagePath": "pages/tabBar/attention/attention",
+				"text": "关注",
+				"iconPath": "static/img/xing.png",
+				"selectedIconPath": "static/img/xingon.png"
+			},
+			{
+				"pagePath": "pages/tabBar/me/me",
+				"text": "我",
+				"iconPath": "static/img/my.png",
+				"selectedIconPath": "static/img/myon.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#3B62C3",
+		"backgroundColor": "#ffffff"
+	}
+}
